@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальное окружение
+venv/
+.venv/
+env/
+
+# Файлы и папки IDE
+.idea/
+.vscode/
+*.iml
+
+# Файлы операционной системы
+.DS_Store
+Thumbs.db
+
+# Лог-файлы и временные файлы
+*.log
+*.tmp
+
+# Файлы данных, которые не должны попадать в репозиторий (если не хотите коммитить JSON)
+# books.json
+
+# Файлы сборки и дистрибутива
+/dist/
+*.egg-info/
+
+# Файлы покрытия кода
+.coverage
+.py,cover
+.cache/
